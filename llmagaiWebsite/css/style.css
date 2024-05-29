@@ -1,0 +1,310 @@
+:root
+{
+    -var-color-primary: #1448FE;
+    -var-color-secundary: #204B7B;
+    -var-color-third: #313542;
+}
+
+.line
+{
+    margin: auto;
+    width: 80px;
+    border: 4px solid #313542;
+    border-radius: 5px;
+}
+
+
+.navbar-desktop
+{
+    box-shadow: 3px 3px 5px #ccc;
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.navbar-nav-desktop ul
+{
+    list-style-type: none;
+}
+.logo_menu img
+{
+    width: 30px;
+}
+/*       MENU NAVBAR MOBILE          */
+.navbar-mobile
+{
+    display: none;
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.navbar-nav-mobile
+{
+    display: none;
+}
+.navbar-nav-mobile ul
+{
+    background-color:#313542;
+    color: #FFFFFF;
+    list-style-type: none;
+    height: 100vh;
+}
+.navbar-nav-mobile ul li a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+
+/*      HEADER HERO     */  
+.header-hero 
+{
+    height: 100vh;
+}
+.header-hero h1
+{
+    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-hero h2
+{
+    font-size: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+.header-hero .btn-project
+{
+    background-color: #313542;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin:10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/*      ABOUT ME     */ 
+.about-me 
+{
+    padding: 40px 0;
+}
+
+.about-me h1
+{
+    font-size: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-me p.text-header-description
+{
+    padding: 0 80px;
+}
+
+.about-me .skills
+{
+    margin: 40px 0;
+    background-color: #204B7B;
+    padding: 40px 0;
+    color: #FFFFFF;
+}
+.about-me .skills .header-text h1
+{
+    font-size: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-me .skills .header-text p
+{
+    font-family: 'poppins', sans-serif;
+}
+.about-me .skills .skills-single button
+{
+    background-color: #313542;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 0;
+    outline: 0;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-family: 18px;
+    text-transform: uppercase;
+}
+
+/*      PROJECTS     */    
+.projects
+{
+    padding: 40px 0;
+}
+.projects h1
+{
+    font-size: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.projects p.text-header-description
+{
+    padding: 0 120px;
+}
+
+
+.projects .project-title
+{
+    text-align: end;
+    margin-top: 20px;
+}
+
+.projects .project-title p
+{
+    font-family: 'poppins', sans-serif;
+}
+.projects .project-title h2
+{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.projects .img-project
+{
+    width: 100%;
+}
+.projects .project-description
+{
+    padding:20px 10px;
+    background-color: #313542;
+    color: #FFFFFF;
+    font-family: 'poppins', sans-serif;
+}
+.projects .laguages
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10px;
+}
+
+
+/*      CONTACTO     */ 
+.contacto
+{
+    padding: 40px 0;
+    background-color: #204B7B;
+    color: #FFFFFF;
+}
+.contacto h1
+{
+    font-size: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contacto .contact-form
+{
+    background-color: #FFFFFF;
+    margin: auto;
+    max-width: 700px;
+    width:100%;
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.contacto .contact-form label
+{
+    color: #313542;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.contacto .contact-form input,.contacto .contact-form textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    outline: 0;
+    background-color: #F5F5F5;
+    outline: 0;
+    height: 50px;
+    border:0;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+}
+.contacto .contact-form textarea
+{
+    font-size: 16px;
+    height: 200px;
+    white-space: pre-wrap; /* Preserve white-space and handle newlines */
+}
+.contacto .contact-form button
+{
+    width: 200px;
+    background-color: #313542;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-family: 18px;
+    text-transform: uppercase;
+}
+
+/*      FOOTER     */ 
+footer
+{
+    padding: 20px 0;
+    background-color: #F5F5F5;
+}
+
+footer .footer-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+footer .footer-content img
+{
+    width: 200px;
+}
+
+
+@media screen and (max-width:768px){
+    .navbar-desktop
+    {
+        display: none;
+    }
+    .navbar-mobile
+    {
+        display: block;
+    }
+    .about-me p.text-header-description
+    {
+        padding: 0;
+    }
+    .projects p.text-header-description
+    {
+        padding: 0;
+    }
+    .projects .img-project
+    {
+        display: none;
+    }
+}
